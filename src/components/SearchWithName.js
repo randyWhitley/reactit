@@ -1,8 +1,7 @@
 import React from "react";
-import SearchName from "./SearchWithName.js";
 import "../styles/Nav.css";
 
-function Nav() {
+function SearchWithName() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <button
@@ -17,11 +16,9 @@ function Nav() {
         <span className="navbar-toggler-icon" />
       </button>
       <div className="collapse navbar-collapse row" id="navbarNav">
-        <div className="search-area col-4">
-          <SearchName />
-        </div>
+        <div className="search-area col-4"></div>
       </div>
     </nav>
   );
 }
-export default Nav;
+export default SearchWithName;
