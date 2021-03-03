@@ -1,12 +1,12 @@
-// import React from "react";
-// import EmployeeContainer from "./EmployeeContainer";
+import React from "react";
+import EmployeeContainer from "./EmployeeContainer";
 
-// function Main() {
-//   return (
-//     <>
-//       <EmployeeContainer />
-//     </>
-//   );
-// }
+function Main() {
+  return (
+    <>
+      <EmployeeContainer />
+    </>
+  );
+}
 
-// export default Main;
+export default Main;

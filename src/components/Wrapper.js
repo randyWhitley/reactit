@@ -1,12 +1,12 @@
-// import React from 'react';
+import React from 'react';
 
 
-// function Wrapper({ children }) {
-//     return (
-//         <div className="wrapper">
-//           { children }
-//         </div>
-//     );
-//   }
+function Wrapper({ children }) {
+    return (
+        <div className="wrapper">
+          { children }
+        </div>
+    );
+  }
   
-//   export default Wrapper;
+  export default Wrapper;
