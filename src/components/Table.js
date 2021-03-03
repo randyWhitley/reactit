@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import Body from "./bodyEl";
+import BodyEl from "./BodyEl";
 import "../styles/Table.css";
 import DataAreaContext from "../utils/DataAreaContext";
 
@@ -33,7 +33,7 @@ const Table = () => {
           </tr>
         </thead>
 
-        <Body />
+        <BodyEl />
       </table>
     </div>
   );
