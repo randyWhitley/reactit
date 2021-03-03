@@ -3,7 +3,7 @@ import "../styles/Nav.css";
 
 function SearchWithName() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <>
       <button
         className="navbar-toggler"
         type="button"
@@ -15,10 +15,10 @@ function SearchWithName() {
       >
         <span className="navbar-toggler-icon" />
       </button>
-      <div className="collapse navbar-collapse row" id="navbarNav">
+      {/* <div className="collapse navbar-collapse row" id="navbarNav">
         <div className="search-area col-4"></div>
-      </div>
-    </nav>
+      </div> */}
+    </>
   );
 }
 export default SearchWithName;

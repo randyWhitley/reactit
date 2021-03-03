@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import Body from "./Body";
+import Body from "./bodyEl";
 import "../styles/Table.css";
 import DataAreaContext from "../utils/DataAreaContext";
 

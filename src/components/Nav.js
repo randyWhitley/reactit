@@ -14,6 +14,9 @@ function Nav() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
+{/* beginning of sort by name */}
+
+
         <span className="navbar-toggler-icon" />
       </button>
       <div className="collapse navbar-collapse row" id="navbarNav">
