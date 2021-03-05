@@ -95,13 +95,14 @@ const EmployeeContainer = () => {
         filteredUsers: results.data.results,
       });
     });
-  }, []);
+  },[]);
 
   return (
     <>
       <DataAreaContext.Provider value={[ developerState, handleSearchChange, handleSort ]}>
         <Nav />
-        <div className="data-area">{developerState.filteredUsers.length > 0 ? <Table /> : <div></div>}</div>
+        <div className="data-area">{developerState.filteredUsers.length > 0 ? <Table /> : <></>}</div>
+        {/* <div className="data-area">{developerState.filteredUsers.length > 0 ? console.log (developerState.filteredUsers) : <></>}</div> */}
       </DataAreaContext.Provider>
     </>
   );
